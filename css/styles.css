@@ -18,11 +18,5 @@
 }
 
 .container {
-    padding: 2px;
     width: 100%;
-}
-
-a:hover {
-    background-color: none;
-    outline: none;
 }

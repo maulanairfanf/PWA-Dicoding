@@ -53,4 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
         xhttp.send();
     }
 
+    // const slider = document.querySelectorAll('.slider');
+    //     M.Slider.init(slider);
+
 });

@@ -30,6 +30,11 @@
             "src": "assets/rsz_cs-offwhite.jpg",
             "sizes": "800x534",
             "type": "image/png/jpeg/jpg"
+        },
+        {
+            "src": "assets/pohon.jpg",
+            "sizes": "1920x1080",
+            "type": "image/png/jpeg/jpg"
         }
     ]
 }
