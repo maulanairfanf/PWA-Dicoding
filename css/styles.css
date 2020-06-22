@@ -1,0 +1,28 @@
+.brand-logo {
+    transition: 1s ease;
+}
+
+.brand-logo:hover {
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.card {
+    width: 200px;
+}
+
+.container {
+    padding: 2px;
+    width: 100%;
+}
+
+a:hover {
+    background-color: none;
+    outline: none;
+}
