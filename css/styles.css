@@ -7,16 +7,17 @@
     font-size: 40px;
 }
 
-.topnav{
+.topnav {
     /* border: 2px solid black; */
     width: 70%;
 }
 
 /* product */
 
-.product .btn{
+.product .btn {
     margin-top: 5%;
 }
+
 .row-product {
     display: flex;
     flex-wrap: wrap;
@@ -61,12 +62,12 @@
 }
 
 @media only screen and (max-width : 767px) {
-    .text-judul {
+    .home .text-judul {
         margin: 0;
         margin-bottom: 3%;
     }
 
-    .text-isi {
+    .home .text-isi {
         margin: 0;
     }
 }
@@ -112,58 +113,59 @@
 }
 
 /* about */
-.about{
+.about {
     padding: 2em;
 }
-.sneakers{
+
+.sneakers {
     width: 80%;
 }
 
-.section1-about{
+.section1-about {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 3%;
     border-radius: 15px;
 }
 
-.section1-about .text{
+.section1-about .text {
     margin-top: 5%;
     padding: 3em;
 }
 
-.location{
+.location {
     width: 80%;
-    
+
 }
 
-.about-section2{
-    /* border : 2px solid black; */
-}
+.about-section2 {}
 
-.about-section2 .card{
+.about-section2 .card {
     box-shadow: none;
     border: none;
 }
 
-.about-section2 .text{
+.about-section2 .text {
     position: relative;
-    transform: translate(-0%,-300%);
+    transform: translate(-0%, -300%);
 }
 
 
 @media only screen and (max-width : 768px) {
-    .about-section2 .text{
-        transform: translate(0%,-200%);
+    .about-section2 .text {
+        transform: translate(0%, -200%);
     }
 }
 
-@media only screen and (max-width : 414px){
-    .about-section2 .text{
-        transform: translate(0%,-150%);
+@media only screen and (max-width : 414px) {
+    .about-section2 .text {
+        transform: translate(0%, -150%);
     }
-    span{
+
+    span {
         font-size: 10px;
     }
-    h3{
+
+    h3 {
         font-size: 20px;
     }
 }
