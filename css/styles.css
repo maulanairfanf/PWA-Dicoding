@@ -1,3 +1,4 @@
+/* nav */
 .brand-logo {
     transition: 1s ease;
 }
@@ -6,6 +7,9 @@
     font-size: 40px;
 }
 
+
+/* product */
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -13,10 +17,46 @@
     padding: 1em;
 }
 
-.card {
+.product{
     width: 200px;
 }
 
+\\
+
 .container {
     width: 100%;
+}
+
+
+/* home */
+/* .text-judul {
+    margin-bottom: 2%;
+    font-family: sans-serif;
+}
+
+.text-isi{
+    font-size: 6px;
+} */
+
+.home{
+    margin: 0;
+}
+
+.text-judul{
+    margin-bottom: 15%;
+    margin-left: 10%;
+}
+.text-isi{
+    margin-bottom: 13%;
+    margin-left: 10%;
+}
+
+@media only screen and (max-width : 767px){
+    .text-judul{
+        margin: 0;
+        margin-bottom: 3%;
+    }
+    .text-isi{
+        margin: 0;
+    }
 }

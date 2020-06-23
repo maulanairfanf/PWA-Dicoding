@@ -4,37 +4,14 @@
     "description": "Website e-comerce pribadi",
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "#00897B",
-    "theme_color": "#00897B",
+    "background_color": "#00acc1",
+    "theme_color": "#00acc1",
     "icons": [{
-            "src": "assets/curry.jpg",
-            "sizes": "268x188",
-            "type": "image/png/jpeg/jpg"
-        },
-        {
-            "src": "assets/nike-offwhite.jpg",
-            "sizes": "800x533",
-            "type": "image/png/jpeg/jpg"
-        },
-        {
-            "src": "assets/nmd.jpg",
-            "sizes": "275x183",
-            "type": "image/png/jpeg/jpg"
-        },
-        {
-            "src": "assets/react-55.jpg",
-            "sizes": "1263x985",
-            "type": "image/png/jpeg/jpg"
-        },
-        {
-            "src": "assets/rsz_cs-offwhite.jpg",
-            "sizes": "800x534",
-            "type": "image/png/jpeg/jpg"
-        },
-        {
-            "src": "assets/pohon.jpg",
-            "sizes": "1920x1080",
-            "type": "image/png/jpeg/jpg"
+            "src": "assets/Torque.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
+
+
     ]
 }

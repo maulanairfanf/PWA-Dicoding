@@ -1,4 +1,4 @@
-const CACHE_NAME = "Torque-v10";
+const CACHE_NAME = "Torque-v15";
 var urlsToCache = [
     "/",
     "/navbar.html",
