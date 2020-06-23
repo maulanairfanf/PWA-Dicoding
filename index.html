@@ -7,6 +7,7 @@
     <title>Torque</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" href="css/styles.css">
@@ -23,14 +24,12 @@
 
 <body>
     <!-- navbar -->
-    <div class="navber">
+    <div class="navbar">
         <nav class="#00acc1 cyan darken">
             <div class="nav-wrapper container">
                 <a href="#" class="brand-logo waves-effect">Torque</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="topnav right hide-on-med-and-down">
-
-                </ul>
+                <ul class="topnav right hide-on-med-and-down"></ul>
                 <ul class="sidenav" id="mobile-demo"></ul>
             </div>
         </nav>
@@ -41,9 +40,38 @@
 
     </div>
 
+    <!-- footer -->
+    <footer class="page-footer #00acc1 cyan darken">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Torque</h5>
+                    <p class="grey-text text-lighten-4">Search the quality item with us</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Social</h5>
+                    <a class="grey-text text-lighten-3"
+                        href="https://instagram.com/maulanairfanfirdian?igshid=jp6oglt6ww3a"><i class="fa fa-instagram fa-2x"
+                            aria-hidden="true"></i>
+                    </a>
+                    <a class="grey-text text-lighten-3" href="https://github.com/maulanairfanf"><i class="fa fa-github fa-2x"
+                            aria-hidden="true"></i>
+                    </a>
+                    <a class="grey-text text-lighten-3" href="https://twitter.com/Maul_IrfanF"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright ">
+            <div class="container center">
+                © 2020 Copyright Text
+            </div>
+        </div>
+    </footer>
+
+
 
     <!-- service-worker -->
-    <script>
+    <!-- <script>
         if ("serviceWorker" in navigator) {
             window.addEventListener("load", function () {
                 navigator.serviceWorker
@@ -58,7 +86,7 @@
         } else {
             console.log("ServiceWorker belum didukung browser ini.");
         }
-    </script>
+    </script> -->
 
 
     <!-- import script -->

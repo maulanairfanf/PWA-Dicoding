@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.querySelectorAll(".topnav, .sidenav").forEach(function (elm) {
                     elm.innerHTML = xhttp.responseText;
                 });
+
+                // Daftarkan event listener untuk setiap tautan menu
                 document.querySelectorAll(".sidenav a, .topnav a").forEach(function (elm) {
                     elm.addEventListener("click", function (event) {
                         // Tutup sidenav
@@ -31,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         xhttp.send();
     }
 
+    // Load page content
     var page = window.location.hash.substr(1);
     if (page == "") page = "home";
     loadPage(page);
@@ -52,8 +55,4 @@ document.addEventListener("DOMContentLoaded", function () {
         xhttp.open("GET", "pages/" + page + ".html", true);
         xhttp.send();
     }
-
-    // const slider = document.querySelectorAll('.slider');
-    //     M.Slider.init(slider);
-
 });
