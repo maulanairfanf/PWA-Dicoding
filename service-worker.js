@@ -1,4 +1,4 @@
-const CACHE_NAME = "Torque-v2";
+const CACHE_NAME = "Torque-v3";
 var urlsToCache = [
     "/",
     "/navbar.html",
@@ -18,12 +18,16 @@ var urlsToCache = [
     "/assets/rsz_cs-offwhite.jpg",
     "/assets/nmd.jpg",
     "/assets/react-55.jpg",
-    "/assets/pohon.jpg",
-    "/assets/bulan.png",
     "/assets/about-sneakers.png",
     "/assets/yeezy.jpg",
     "/assets/yeezy-onfeet.jpg",
-    "/assets/people.png"
+    "/assets/pohon.jpg",
+    "/assets/bulan.png",
+    "/assets/location.png",
+    "/assets/people.png",
+    "/assets/faq.png",
+    "/assets/location2.png",
+    "/assets/login.png"
 ];
 
 self.addEventListener("install", function (event) {
