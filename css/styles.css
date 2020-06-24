@@ -122,7 +122,6 @@
 }
 
 .section1-about {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 3%;
     border-radius: 15px;
 }
@@ -132,40 +131,49 @@
     padding: 3em;
 }
 
-.location {
+.about-section2 .card .card-image img {
+    width: 30%;
+}
+
+.bulan{
+    margin-top: 21%;
+}
+
+.teleskop{
+    margin-top: 4%;
+}
+
+
+
+/* login */
+.login{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 80%;
-
 }
 
-.about-section2 {}
-
-.about-section2 .card {
-    box-shadow: none;
-    border: none;
+.people-login{
+    width: 80%;
+    border-radius : 30% ;
+    padding : 3em 0 3em 0;
 }
 
-.about-section2 .text {
-    position: relative;
-    transform: translate(-0%, -300%);
+.login .s12{
+    border-radius: 15px;
 }
 
-
-@media only screen and (max-width : 768px) {
-    .about-section2 .text {
-        transform: translate(0%, -200%);
-    }
+.login label, .validate{
+    color: #00acc1 cyan darken  ;
 }
 
-@media only screen and (max-width : 414px) {
-    .about-section2 .text {
-        transform: translate(0%, -150%);
-    }
+.login .form-group{
+    margin-top: 15%;
+    padding: 2em;
+}
 
-    span {
-        font-size: 10px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
+.login h4{
+    margin-top: 15%;
+    margin-bottom: 5%;
 }
