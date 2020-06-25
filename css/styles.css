@@ -28,7 +28,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 3em;
-    /* border: 2px solid black; */
     width: 100%;
 }
 
@@ -36,22 +35,22 @@
 
     width: 200px;
     box-shadow: none;
-    
+
 }
 
 .container {
     width: 100%;
 }
 
-@media screen and (max-width : 500px){
-    .row-product{
+@media screen and (max-width : 500px) {
+    .row-product {
         padding: 1em;
     }
-    .card-product{
+
+    .card-product {
         width: 150px;
     }
 }
-
 
 
 /* home */
@@ -120,7 +119,6 @@
 }
 
 
-
 /* about */
 .about {
     padding: 2em;
@@ -144,18 +142,18 @@
     width: 30%;
 }
 
-.bulan{
+.bulan {
     margin-top: 21%;
 }
 
-.teleskop{
+.teleskop {
     margin-top: 4%;
 }
 
 
 
 /* login */
-.login{
+.login {
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 25px;
@@ -163,44 +161,46 @@
     width: 80%;
 }
 
-.people-login{
+.people-login {
     width: 80%;
-    border-radius : 30% ;
-    padding : 3em 0 3em 0;
+    border-radius: 30%;
+    padding: 3em 0 3em 0;
 }
 
-.login .s12{
+.login .s12 {
     border-radius: 15px;
 }
 
-.login label, .validate{
-    color: #00acc1 cyan darken  ;
+.login label,
+.validate {
+    color: #00acc1 cyan darken;
 }
 
-.login .form-group{
+.login .form-group {
     margin-top: 15%;
     padding: 2em;
 }
 
-.login h4{
+.login h4 {
     margin-top: 15%;
     margin-bottom: 5%;
 }
 
 
-/* Checkout */
+/* cart */
 
-.cart{
+.cart {
     margin-top: 3%;
     padding: 2em;
 }
 
-.check{
+.check {
     padding: 1em 3em 2em 3em !important;
     border: 3px solid #26a69a;
     border-radius: 25px;
 }
 
-.check h6, .check a{
+.check h6,
+.check a {
     margin-top: 5%;
 }

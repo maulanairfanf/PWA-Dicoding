@@ -1,5 +1,5 @@
-const CACHE_NAME = "Torque-v1";
-var urlsToCache = [
+const CACHE_NAME = "Torque-v4";
+var assetsCache = [
     "/",
     "/navbar.html",
     "/index.html",
@@ -12,7 +12,6 @@ var urlsToCache = [
     "/css/styles.css",
     "/js/materialize.min.js",
     "/js/nav.js",
-    "/js/init.js",
     "/assets/curry.jpg",
     "/assets/nike-offwhite.jpg",
     "/assets/rsz_cs-offwhite.jpg",
@@ -32,7 +31,7 @@ var urlsToCache = [
 self.addEventListener("install", function (event) {
     event.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
-            return cache.addAll(urlsToCache);
+            return cache.addAll(assetsCache);
         })
     );
 });
@@ -46,12 +45,12 @@ self.addEventListener("fetch", function (event) {
         })
         .then(function (response) {
             if (response) {
-                console.log("ServiceWorker: Gunakan aset dari cache: ", response.url);
+                console.log("ServiceWorker : use assets from cache ", response.url);
                 return response;
             }
 
             console.log(
-                "ServiceWorker: Memuat aset dari server: ",
+                "ServiceWorker : load assets form server ",
                 event.request.url
             );
             return fetch(event.request);
