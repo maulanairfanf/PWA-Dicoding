@@ -1,4 +1,4 @@
-const CACHE_NAME = "Torque-v3";
+const CACHE_NAME = "Torque-v1";
 var urlsToCache = [
     "/",
     "/navbar.html",
@@ -23,10 +23,9 @@ var urlsToCache = [
     "/assets/yeezy-onfeet.jpg",
     "/assets/pohon.jpg",
     "/assets/bulan.png",
-    "/assets/location.png",
-    "/assets/people.png",
-    "/assets/faq.png",
     "/assets/location2.png",
+    "/assets/people.png",
+    "/assets/teleskop.png",
     "/assets/login.png"
 ];
 
