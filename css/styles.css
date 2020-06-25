@@ -177,3 +177,21 @@
     margin-top: 15%;
     margin-bottom: 5%;
 }
+
+
+/* Checkout */
+
+.cart{
+    margin-top: 3%;
+    padding: 2em;
+}
+
+.check{
+    padding: 1em 3em 2em 3em !important;
+    border: 3px solid #26a69a;
+    border-radius: 25px;
+}
+
+.check h6, .check a{
+    margin-top: 5%;
+}
