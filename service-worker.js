@@ -25,7 +25,12 @@ var assetsCache = [
     "/assets/location2.png",
     "/assets/people.png",
     "/assets/teleskop.png",
-    "/assets/login.png"
+    "/assets/login.png",
+    "/manifest.json",
+    "https://fonts.googleapis.com/icon?family=Material+Icons",
+    "https://fonts.gstatic.com/s/materialicons/v52/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+
 ];
 
 self.addEventListener("install", function (event) {

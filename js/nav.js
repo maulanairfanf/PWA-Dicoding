@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var elems = document.querySelectorAll(".sidenav");
+    const elems = document.querySelectorAll(".sidenav");
     M.Sidenav.init(elems);
     loadNav();
 
     function loadNav() {
-        var xhttp = new XMLHttpRequest();
+        const xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
-            if (this.readyState == 4) {
+            if (this.readyState === 4) {
                 if (this.status != 200) return;
 
                 document.querySelectorAll(".topnav, .sidenav").forEach(function (elm) {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 document.querySelectorAll(".sidenav a, .topnav a").forEach(function (elm) {
                     elm.addEventListener("click", function (event) {
-                        var sidenav = document.querySelector(".sidenav");
+                        const sidenav = document.querySelector(".sidenav");
                         M.Sidenav.getInstance(sidenav).close();
 
                         page = event.target.getAttribute("href").substr(1);
@@ -29,18 +29,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    var page = window.location.hash.substr(1);
-    if (page == "") page = "home";
+    const page = window.location.hash.substr(1);
+    if (page === "") page = "home";
     loadPage(page);
 
     function loadPage(page) {
-        var xhttp = new XMLHttpRequest();
+        const xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
-            if (this.readyState == 4) {
-                var content = document.querySelector("#body-render");
-                if (this.status == 200) {
+            if (this.readyState === 4) {
+                const content = document.querySelector("#body-render");
+                if (this.status === 200) {
                     content.innerHTML = xhttp.responseText;
-                } else if (this.status == 404) {
+                } else if (this.status === 404) {
                     content.innerHTML = "<p>Halaman yang anda cari tidak dapa ditemukan</p>";
                 } else {
                     content.innerHTML = "<p>Oops halaman tidak dapat di akses.</p>";
