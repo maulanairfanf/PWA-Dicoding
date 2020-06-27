@@ -1,4 +1,4 @@
-const CACHE_NAME = "Torque-v23";
+const CACHE_NAME = "Torque-finish";
 var assetsCache = [
     "/",
     "/navbar.html",

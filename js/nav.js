@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 document.querySelectorAll(".sidenav a, .topnav a").forEach(function (elm) {
                     elm.addEventListener("click", function (event) {
-                        var sidenav = document.querySelector(".sidenav");
+                        const sidenav = document.querySelector(".sidenav");
                         M.Sidenav.getInstance(sidenav).close();
                         page = event.target.getAttribute("href").substr(1);
                         loadPage(page);
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4) {
-                var content = document.querySelector("#body-render");
+                const content = document.querySelector("#body-render");
                 if (this.status == 200) {
                     content.innerHTML = xhttp.responseText;
                 } else if (this.status == 404) {
