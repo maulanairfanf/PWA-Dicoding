@@ -12,6 +12,13 @@
     width: 70%;
 }
 
+@media only screen and (max-width : 992px) {
+    .sidenav .right {
+        float: left !important;
+        width: 100%;
+    }
+}
+
 /* footer */
 .text-lighten-3 {
     margin-right: 4%;
@@ -48,12 +55,13 @@
     }
 
     .card-product {
-        width: 150px;
+        width: 140px;
     }
 }
 
 
 /* home */
+.home {}
 
 .home-section1 {
     margin: 0;
@@ -91,33 +99,53 @@
     margin-top: 5%;
 }
 
-
-.home-section3 {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    margin-bottom: 5%;
+.home-section2 {
+    border-bottom: 2px solid black;
 }
 
+.home-section3 {
+    padding: 1em;
+    margin-top: 5%;
+}
+
+.home-section3 .center {
+    padding: 1em;
+    border-radius: 15px;
+    margin-bottom: 5%;
+
+}
+
+
 .signature {
-    width: 40%;
-    justify-content: center;
+    width: 60%;
+
+}
+
+.btn-signature {
+    margin-top: 2%;
+    margin-right: 5%;
+    width: 30%;
 }
 
 .home-section3 .card {
     border: none;
     box-shadow: none;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .home-section3-harga {
-    margin-right: 8%;
+    margin-right: 5%;
 }
 
 .home-section3 img:hover {
     background-color: black;
 }
 
+@media screen and (max-width : 666px) {
+    .btn-signature {
+        width: 100%;
+    }
+}
 
 /* about */
 .about {
@@ -157,7 +185,6 @@
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 80%;
 }
 
@@ -194,8 +221,12 @@
     padding: 2em;
 }
 
+.cart .card {
+    width: 250px;
+}
+
 .check {
-    padding: 1em 3em 2em 3em !important;
+    padding: 2em !important;
     border: 3px solid #26a69a;
     border-radius: 25px;
 }
@@ -203,4 +234,14 @@
 .check h6,
 .check a {
     margin-top: 5%;
+}
+
+.check a {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.check h6 {
+    border-bottom: 2px solid #26a69a;
+    padding-bottom: 10px;
 }

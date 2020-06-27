@@ -1,4 +1,4 @@
-const CACHE_NAME = "Torque-v4";
+const CACHE_NAME = "Torque-v23";
 var assetsCache = [
     "/",
     "/navbar.html",
@@ -12,6 +12,8 @@ var assetsCache = [
     "/css/styles.css",
     "/js/materialize.min.js",
     "/js/nav.js",
+    "/js/install-service-worker.js",
+    "/assets/maulana.jpg",
     "/assets/curry.jpg",
     "/assets/nike-offwhite.jpg",
     "/assets/rsz_cs-offwhite.jpg",
@@ -26,6 +28,11 @@ var assetsCache = [
     "/assets/people.png",
     "/assets/teleskop.png",
     "/assets/login.png",
+    "/assets/Torque512x512.png",
+    "/assets/Torque384x384.png",
+    "/assets/Torque256x256.png",
+    "/assets/Torque192x192.png",
+    "/assets/Torque96x96.png",
     "/manifest.json",
     "https://fonts.googleapis.com/icon?family=Material+Icons",
     "https://fonts.gstatic.com/s/materialicons/v52/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
